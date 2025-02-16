@@ -87,11 +87,11 @@ class over_SPRIIndex(tf.keras.layers.Layer):
         
         '''
         rr1=tf.greater(data[:,5], data[:,4]);
-        #1是水稻, 0不是水稻
+        
         rr1z=tf.cast(rr1,dtype=tf.float32);
         
         rr2=tf.greater(data[:,6], data[:,4]);
-        #1是水稻, 0不是水稻
+       
         rr2z=tf.cast(rr2,dtype=tf.float32);
         
         rr3=tf.greater(tf.math.add(rr1z,rr2z),0);
