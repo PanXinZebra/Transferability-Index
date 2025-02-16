@@ -6,9 +6,9 @@ Created on Wed Jun 28 13:21:16 2023
 """
 
 
-pid=np.zeros((1075787),dtype='int');  
-pv=np.zeros((1075787*4,12),dtype='float');
-
+pid=np.zeros((pdbrownumber),dtype='int');  
+pv=np.zeros((pdbrownumber*4,12),dtype='float');
+#pdbrownumber or jilin border is 1075787
 i=0;
 for ekey in pdbsf1.keys():
     arow=pdbsf1[ekey];
