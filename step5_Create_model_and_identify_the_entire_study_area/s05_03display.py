@@ -19,7 +19,7 @@ import numpy as np;
 write into arcgis
 '''
 
-[results]=np.load('K:\\a-paper2023-gisdata3\\adataset\\decision\\transform.npy',allow_pickle=True);
+[results]=np.load('K:\\a-paper2023-gisdata3\\adataset\\decision\\mymodel.npy',allow_pickle=True);
 thename='tindex';
 # tindex is field name
 
