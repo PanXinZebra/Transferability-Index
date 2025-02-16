@@ -45,7 +45,7 @@ rxresult=np.argmax(xresult,1)
 
 
 resultdict=dict();
-for ii in range(1075787):
+for ii in range(pdbrownumber):
     pos1=ii;
     pos2=ii*4;
     thekey=pid[pos1];
